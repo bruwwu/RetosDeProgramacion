@@ -7,7 +7,7 @@ public:
 	float x;
 	float y;
 
-
+	Vector2(float x, float y);
 	Vector2(float x = 0, float y = 0) : x(x), y(y) {}
 
 	~Vector2() = default;
@@ -43,7 +43,6 @@ public:
 			return Vector2(0, 0);
 		}
 		else {
-
 			return Vector2(x / mag, y / mag);
 		}
 	}
