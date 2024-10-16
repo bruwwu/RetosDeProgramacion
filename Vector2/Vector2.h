@@ -7,10 +7,11 @@ public:
 	float x;
 	float y;
 
-	Vector2(float x, float y);
-	Vector2(float x = 0, float y = 0) : x(x), y(y) {}
+	Vector2() : x(0), y(0) {};
 
 	~Vector2() = default;
+
+	Vector2(float x = 0, float y = 0) : x(x), y(y);
 
 	//Suma, sobrecarga el operador de operador uniario
 	Vector2
