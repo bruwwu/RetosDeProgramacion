@@ -11,7 +11,7 @@ public:
 
 	~Vector2() = default;
 
-	Vector2(float x = 0, float y = 0) : x(x), y(y);
+	Vector2(float x = 0, float y = 0) : x(x), y(y){}
 
 	//Suma, sobrecarga el operador de operador uniario
 	Vector2
